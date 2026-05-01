@@ -63,8 +63,7 @@ A powerful and flexible WooCommerce product filtering plugin with SEO-friendly U
 1. Upload the plugin to the `/wp-content/plugins/` directory  
    **or** install it directly via the WordPress admin panel.
 2. Activate the plugin from the **Plugins** menu.
-3. Navigate to:  
-   **Product Filter**
+3. Navigate to:  **Product Filter**
 4. Configure your filters and assign them as needed.
 5. Go to **Settings → Permalinks** and click **Save Changes** to flush and reset WordPress rewrite rules.
 ---
