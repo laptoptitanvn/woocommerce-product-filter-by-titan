@@ -1,0 +1,748 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-22 17:56+0700\n"
+"PO-Revision-Date: 2025-05-22 17:56+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 1.0.0.0\n"
+
+#: admin/class-wcpf-admin.php:28 includes/class-wcpf-filter-widget.php:12
+msgid "WooCommerce Product Filter"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:29
+msgid "Product Filter"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:39 admin/class-wcpf-admin.php:40
+msgid "All Filters"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:48
+msgid "Add New Filter"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:49
+msgid "Add New"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:57 admin/class-wcpf-admin.php:58
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:92
+msgid "Search and select..."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:93
+msgid "Are you sure you want to delete this filter?"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:94
+msgid "Error deleting filter."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:95
+msgid "Error toggling filter status."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:96
+msgid "Error uploading image."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:97
+msgid "Error removing image."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:98
+msgid "Chọn ảnh cho term"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:99 admin/class-wcpf-admin.php:533
+msgid "Chọn ảnh"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:100 admin/class-wcpf-admin.php:535
+#: admin/class-wcpf-admin.php:1101
+msgid "Xóa ảnh"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:101 admin/class-wcpf-admin.php:595
+msgid "Xóa cache"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:102
+msgid "Đang xóa cache..."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:103 admin/class-wcpf-admin.php:414
+msgid "Xóa cache thành công."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:104
+msgid "Lỗi khi xóa cache."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:284 admin/class-wcpf-admin.php:312
+#: admin/class-wcpf-admin.php:349 admin/class-wcpf-admin.php:381
+msgid "Dữ liệu không hợp lệ."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:292 admin/class-wcpf-admin.php:319
+#: admin/class-wcpf-admin.php:805
+msgid "Bộ lọc không tồn tại."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:308 admin/class-wcpf-admin.php:345
+#: admin/class-wcpf-admin.php:377 admin/class-wcpf-admin.php:402
+#: admin/class-wcpf-admin.php:856
+msgid "Không có quyền truy cập."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:335
+msgid "Bộ lọc đã được xóa thành công."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:357 admin/class-wcpf-admin.php:388
+msgid "Thuộc tính không tồn tại."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:361
+msgid "Hình ảnh không hợp lệ."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:392
+msgid "Đã xóa hình ảnh."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:431
+msgid "Tất cả bộ lọc"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:432 admin/class-wcpf-admin.php:960
+msgid "Thêm bộ lọc mới"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:436
+msgid "Tên"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:437
+msgid "Kích hoạt"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:438 admin/class-wcpf-admin.php:983
+msgid "Danh mục"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:439 admin/class-wcpf-admin.php:1001
+msgid "Thương hiệu"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:440
+msgid "Hành động"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:474
+msgid "Sửa"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:475 admin/class-wcpf-admin.php:1060
+msgid "Xóa"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:512 admin/class-wcpf-admin.php:1179
+msgid "Cài đặt chung"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:517 admin/class-wcpf-admin.php:969
+msgid "Cài đặt bộ lọc"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:520 admin/class-wcpf-admin.php:530
+msgid "Ảnh Loading"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:538
+msgid ""
+"Tải lên ảnh loading để thay thế hiệu ứng loading spin mặc định. Nếu không có "
+"ảnh, hiệu ứng loading spin mặc định sẽ được sử dụng."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:542
+msgid "Chọn bộ lọc cho trang cửa hàng"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:545 admin/class-wcpf-admin.php:622
+msgid "Không"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:554
+msgid "Chọn bộ lọc để hiển thị trên "
+msgstr ""
+
+#: admin/class-wcpf-admin.php:554
+msgid "trang cửa hàng"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:558
+msgid "Hành vi áp dụng bộ lọc"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:562
+msgid "Lọc ngay khi chọn thuộc tính"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:566
+msgid "Xác nhận qua nút"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:571
+msgid "Ẩn các thuộc tính không có sản phẩm"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:575
+msgid "Ẩn các thuộc tính không có sản phẩm trong giao diện bộ lọc ở frontend"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:577
+msgid "Các thuộc tính không có sản phẩm sau khi lọc sẽ bị loại bỏ"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:581
+msgid "Số lượng hiển thị của mỗi nhóm thuộc tính"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:584
+msgid ""
+"Nhập số lượng tối đa hiển thị cho mỗi nhóm thuộc tính (0 để hiển thị toàn "
+"bộ). Ví dụ: Nhập 6 để hiển thị 6 thuộc tính, nút \"Xem thêm\" sẽ hiển thị "
+"phần còn lại."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:588
+msgid "Xóa cache bộ lọc"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:594
+#, php-format
+msgid "Số lượng cache hiện tại: <span class=\"wcpf-cache-count\">%d</span>"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:596
+msgid ""
+"Xóa tất cả cache liên quan đến số lượng sản phẩm trong bộ lọc (transient "
+"wcpf_term_count_). Nên xóa cache sau khi thay đổi sản phẩm hoặc danh mục."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:602
+msgid "Cài đặt widget"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:605 admin/class-wcpf-admin.php:613
+msgid "Sử dụng widget"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:609
+msgid "Không sử dụng widget"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:615
+msgid ""
+"Nếu chọn \"Sử dụng widget\", bộ lọc sẽ chỉ hiển thị qua widget và không hiển "
+"thị tự động trên trang cửa hàng."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:619
+msgid "Chọn bộ lọc cho widget"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:631
+msgid "Chọn bộ lọc để sử dụng trong widget."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:635
+msgid "Thuộc tính đang kích hoạt"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:639
+msgid "Phía trên bộ lọc"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:643
+msgid "Phía trên danh mục sản phẩm"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:645
+msgid "Áp dụng cho Widget có Layout Vertical"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:649
+msgid "Trạng thái mặc định của nhóm lọc"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:653
+msgid "Mở ra tất cả"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:657
+msgid "Đóng lại tất cả"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:659
+msgid ""
+"Xác định trạng thái mặc định của các nhóm lọc khi tải trang trong layout "
+"dọc. Người dùng có thể thay đổi thủ công bằng cách nhấn vào tiêu đề nhóm."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:665
+msgid "Văn bản tùy chỉnh"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:668
+msgid "Nút Áp dụng"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:671
+msgid "Văn bản hiển thị trên nút áp dụng bộ lọc."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:675
+msgid "Nút Xóa tất cả"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:678
+msgid "Văn bản hiển thị trên nút xóa tất cả bộ lọc."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:682
+msgid "Nút Menu trên Mobile"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:685
+msgid "Văn bản hiển thị trên nút mở menu bộ lọc trên mobile."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:689
+msgid "Tiêu đề Menu trên Mobile"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:692
+msgid "Tiêu đề hiển thị trên menu bộ lọc trên mobile."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:696
+msgid "Văn bản Xem thêm"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:699
+msgid "Văn bản hiển thị trên nút Xem thêm khi có nhiều thuộc tính."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:703
+msgid "Văn bản Thu gọn"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:706
+msgid "Văn bản hiển thị trên nút Thu gọn khi có nhiều thuộc tính."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:712 admin/class-wcpf-admin.php:715
+msgid "CSS tùy chỉnh"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:718
+msgid "Nhập CSS tùy chỉnh để tùy chỉnh giao diện bộ lọc."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:724
+msgid "Cài đặt SEO"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:727
+msgid "Sử dụng ID trong URL"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:731
+msgid "Sử dụng term ID thay vì slug trong URL bộ lọc"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:733
+msgid ""
+"Nếu bật, URL bộ lọc sẽ sử dụng term ID (ví dụ: /filters/cpu-123/) thay vì "
+"slug (ví dụ: /filters/cpu-intel-core-i7/). Mặc định sử dụng slug."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:737
+msgid "Meta Robots with Filter"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:744 admin/class-wcpf-admin.php:758
+#: admin/class-wcpf-admin.php:769
+msgid "Default Wordpress"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:745
+msgid "index, follow"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:746
+msgid "noindex, nofollow"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:751
+msgid "Canonical URL with Filter"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:759
+msgid "Bao gồm bộ lọc (With Filter)"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:760
+msgid "Không bao gồm bộ lọc (Without Filter)"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:762
+msgid ""
+"Chọn cách hiển thị thẻ canonical: \"With Filter\" bao gồm toàn bộ URL bộ "
+"lọc, \"Without Filter\" chỉ hiển thị danh mục cha."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:766
+msgid "SEO Title"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:770
+msgid "{title} with [attribute] [values] and [attribute] [values]"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:771
+msgid "{title} [attribute]:[values];[attribute]:[values]"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:772
+msgid ""
+"[attribute 1 values] {title} with [attribute] [values] and [attribute] "
+"[values]"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:773
+msgid "{title} - [values] / [values]"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:774
+msgid "[attribute]:[values];[attribute]:[values] - {title}"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:776
+msgid ""
+"Chọn định dạng tiêu đề SEO khi áp dụng bộ lọc. {title} là tiêu đề trang, "
+"[attribute] và [values] là thuộc tính và giá trị được chọn. Chọn \"Default\" "
+"để giữ tiêu đề mặc định."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:782 admin/class-wcpf-admin.php:1215
+msgid "Lưu thay đổi"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:860
+msgid "Xác minh bảo mật thất bại."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:886 includes/class-product-filter.php:909
+#: includes/class-product-filter.php:1292
+#: includes/class-wcpf-filter-widget.php:475
+msgid "THƯƠNG HIỆU"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:888
+msgid "GIÁ"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:889
+msgid "TÌM KIẾM"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:890
+msgid "SẮP XẾP THEO"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:891
+msgid "TRẠNG THÁI TỒN KHO"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:923 includes/class-product-filter.php:1072
+#: includes/class-product-filter.php:1440
+#: includes/class-product-filter.php:1708
+#: includes/class-wcpf-filter-widget.php:704
+msgid "Mặc định"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:924 includes/class-product-filter.php:1073
+#: includes/class-product-filter.php:1441
+#: includes/class-product-filter.php:1709
+#: includes/class-wcpf-filter-widget.php:705
+msgid "Phổ biến"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:925 includes/class-product-filter.php:1074
+#: includes/class-product-filter.php:1442
+#: includes/class-product-filter.php:1710
+#: includes/class-wcpf-filter-widget.php:706
+msgid "Xếp hạng"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:926 includes/class-product-filter.php:1075
+#: includes/class-product-filter.php:1443
+#: includes/class-product-filter.php:1711
+#: includes/class-wcpf-filter-widget.php:707
+msgid "Mới nhất"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:927 includes/class-product-filter.php:1076
+#: includes/class-product-filter.php:1444
+#: includes/class-product-filter.php:1712
+#: includes/class-wcpf-filter-widget.php:708
+msgid "Giá: Thấp đến cao"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:928 includes/class-product-filter.php:1077
+#: includes/class-product-filter.php:1445
+#: includes/class-product-filter.php:1713
+#: includes/class-wcpf-filter-widget.php:709
+msgid "Giá: Cao đến thấp"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:940 includes/class-product-filter.php:1121
+#: includes/class-product-filter.php:1490
+#: includes/class-product-filter.php:1593
+#: includes/class-wcpf-filter-widget.php:596
+msgid "Còn hàng"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:941 includes/class-product-filter.php:1122
+#: includes/class-product-filter.php:1491
+#: includes/class-product-filter.php:1594
+#: includes/class-wcpf-filter-widget.php:597
+msgid "Hết hàng"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:942 includes/class-product-filter.php:1123
+#: includes/class-product-filter.php:1492
+#: includes/class-product-filter.php:1595
+#: includes/class-wcpf-filter-widget.php:598
+msgid "Giảm giá"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:956
+msgid "Cài đặt bộ lọc đã được lưu thành công."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:960
+msgid "Sửa bộ lọc"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:971
+msgid "Tên bộ lọc"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:976
+msgid "Kích hoạt bộ lọc này"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:981
+msgid "Gán cho danh mục và thương hiệu"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:985
+msgid "Chọn tất cả danh mục"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:993
+msgid "Chọn danh mục để áp dụng bộ lọc."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:997
+msgid ""
+"Áp dụng cho danh mục con. Nếu được chọn, bộ lọc này sẽ áp dụng cho tất cả "
+"danh mục con của danh mục đã chọn."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1003
+msgid "Chọn tất cả thương hiệu"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1010
+msgid "Hệ thống sẽ sử dụng bộ lọc phù hợp đầu tiên cho các trang thương hiệu."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1016 admin/class-wcpf-admin.php:1029
+#: admin/class-wcpf-admin.php:1090
+msgid "Thuộc tính đang hoạt động"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1019 admin/class-wcpf-admin.php:1069
+msgid "Thuộc tính có sẵn"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1064
+msgid "Thêm khoảng giá"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1073
+msgid "Chọn tất cả"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1115
+msgid "Cài đặt hiển thị"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1117
+msgid "Hiển thị:"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1121
+msgid "Desktop và Mobile"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1125
+msgid "Chỉ Desktop"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1129
+msgid "Chỉ Mobile"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1136
+msgid "Cài đặt giao diện"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1138
+msgid "Giao diện nhóm lọc:"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1159
+msgid "Giao diện thuộc tính:"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1181
+msgid "Số thuộc tính hiển thị:"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1182
+msgid "Sử dụng cài đặt chung"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1183
+msgid ""
+"Nhập số lượng tối đa hiển thị cho nhóm thuộc tính này (0 hoặc để trống để sử "
+"dụng cài đặt chung)."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1188
+msgid "Hiển thị số lượng sản phẩm cho mỗi thuộc tính"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1190
+msgid ""
+"Nếu bật, số lượng sản phẩm sẽ hiển thị bên cạnh các thuộc tính trong nhóm "
+"này (ví dụ: Core i7 (10))."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1196
+msgid "Chọn một thuộc tính mỗi thời điểm (Single Select)"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1198
+msgid ""
+"Nếu bật, người dùng chỉ có thể chọn một thuộc tính tại một thời điểm (ví dụ: "
+"chọn Core i7 sẽ bỏ chọn Core i5). Nếu tắt, có thể chọn nhiều thuộc tính cùng "
+"lúc."
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1204
+msgid "Class tùy chỉnh"
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1205
+msgid "Tên class CSS tùy chỉnh cho "
+msgstr ""
+
+#: admin/class-wcpf-admin.php:1207
+msgid ""
+"Nhập tên class CSS tùy chỉnh (ví dụ: ten-tuy-chinh). Class này sẽ được thêm "
+"vào thẻ wcpf-filter-group trong frontend."
+msgstr ""
+
+#: includes/class-product-filter.php:59
+msgid ""
+"This shortcode can only be used on WooCommerce shop, category, or brand "
+"pages."
+msgstr ""
+
+#: includes/class-product-filter.php:167
+msgid "Đang tải..."
+msgstr ""
+
+#: includes/class-product-filter.php:168
+msgid "Không tìm thấy sản phẩm."
+msgstr ""
+
+#: includes/class-product-filter.php:835
+#: includes/class-product-filter.php:1225
+#: includes/class-wcpf-filter-widget.php:404
+msgid "KHOẢNG GIÁ"
+msgstr ""
+
+#: includes/class-product-filter.php:1045
+#: includes/class-product-filter.php:1414
+#: includes/class-wcpf-filter-widget.php:680
+msgid "Nhập từ khóa tìm kiếm..."
+msgstr ""
+
+#: includes/class-product-filter.php:1151
+#: includes/class-product-filter.php:1519
+#: includes/class-wcpf-filter-widget.php:624
+msgid "TRẠNG THÁI"
+msgstr ""
+
+#: includes/class-product-filter.php:1201
+msgid "× Đóng"
+msgstr ""
+
+#: includes/class-wcpf-filter-widget.php:14
+msgid "Displays a product filter with configurable layout."
+msgstr ""
+
+#: includes/class-wcpf-filter-widget.php:760
+msgid "Title:"
+msgstr ""
+
+#: includes/class-wcpf-filter-widget.php:764
+msgid "Layout:"
+msgstr ""
+
+#: includes/class-wcpf-filter-widget.php:766
+msgid "Horizontal"
+msgstr ""
+
+#: includes/class-wcpf-filter-widget.php:767
+msgid "Vertical"
+msgstr ""
+
+#: includes/class-wcpf-filter-widget.php:771
+msgid ""
+"The filter displayed is set in WooCommerce Product Filter General Settings."
+msgstr ""

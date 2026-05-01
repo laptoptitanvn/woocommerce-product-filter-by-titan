@@ -1,0 +1,961 @@
+/* General Styles */
+/* General Styles */
+.wcpf-filter-wrapper {
+    margin-bottom: 20px;
+}
+.wcpf-filter-wrapper a, .wcpf-filter-wrapper a:focus {
+	outline: none !important;
+}
+.wcpf-filter-wrapper.horizontal form, .wcpf-filter-wrapper.horizontal button {margin: 0px }
+.wcpf-selected-filters {
+    margin-bottom: 10px;
+}
+.sidebar-inner {
+	z-index: 1000;
+}
+.sidebar-inner .widget .wcpf-selected-filters {
+	margin-bottom:20px;
+}
+.widget_wcpf_filter_widget .wcpf-filter-group.search {margin-bottom:10px;}
+.widget.widget_wcpf_filter_widget .wcpf-filter-wrapper {
+	margin-bottom: 0px;
+}
+.wcpf-filter-tag {
+    display: inline-block;
+    background: #f5f5f5;
+    padding: 5px 10px;
+    margin: 0 5px 5px 0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.wcpf-filter-tag a.wcpf-remove-filter {
+    color: #666;
+    text-decoration: none;
+}
+
+.wcpf-filter-tag .wcpf-remove-filter {
+	display: inline-block !important;
+	visibility: visible !important;
+	opacity: 1 !important;
+	width: 16px;
+	height: 16px;
+	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>') no-repeat center;
+	background-size: contain;
+	cursor: pointer;
+	margin-left: 0px;
+	background-position: 0px 3px;
+}
+
+.wcpf-reset-filters {
+    font-size: 14px;
+    color: red;
+    text-decoration: none;
+	background: none;
+	box-shadow: none;
+}
+
+.wcpf-reset-filters:hover, .wcpf-reset-filters:focus {
+	background: #fff;
+	color: red;
+}
+
+.wcpf-filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.wcpf-filter-group {
+    position: relative;
+}
+
+.wcpf-filter-group.category .wcpf-filter-menu {
+	min-width: 300px;
+	max-height: 400px;
+    overflow-y: auto;
+}
+
+.wcpf-filter-toggle {
+    background: #fff;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 4px;
+    padding: 8px 40px 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+	color: #000 !important;
+}
+
+.wcpf-filter-toggle:after {
+	background-size: 100% auto;
+    content: "";
+    display: block;
+    height: 10px;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 5px);
+    width: 10px;
+	background-image: url(../images/arrow-down.svg);
+	right:12px;
+}
+.wcpf-filter-toggle.active:after {
+	background-image: url(../images/arrow-up.svg);
+}
+.wcpf-filter-toggle:hover, .wcpf-filter-toggle:visited, .wcpf-filter-toggle:active, .wcpf-filter-toggle:focus {
+	background: #fff !important;
+	color: #000;
+	border: 1px solid #e0e0e0
+}
+.wcpf-filter-toggle.active {
+    background: #e3f2fd !important;
+    border-color: #2196f3 !important;
+	color: #000 !important;
+}
+
+.wcpf-selected-count {
+    background: #2196f3;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 0px;
+    position: absolute;
+    top: -8px;
+    right: -10px;
+}
+
+.wcpf-filter-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+    padding: 10px;
+    min-width: 240px;
+	margin-top: 7px;
+}
+
+.wcpf-filter-menu > .wcpf-filter-grid.four_colums {
+    min-width: 300px;
+}
+
+.wcpf-filter-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.wcpf-h-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.wcpf-h-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wcpf-filter-label {
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 13px;
+    background: #fff;
+    width: 100%;
+	text-align:center;
+	min-width: 70px;
+}
+.wcpf-filter-label.wcpf-price-range {
+	text-align:left;
+}
+.wcpf-filter-menu.filter-brand .wcpf-filter-label {
+    text-align: center;
+}
+
+.wcpf-filter-menu.filter-brand .wcpf-filter-label img {
+    width: 25px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.wcpf-filter-label:hover {
+    background: #f5f5f5;
+}
+
+.wcpf-filter-label.selected {
+    background: #e3f2fd;
+    color: #2196f3;
+    border-color: #2196f3;
+}
+
+.wcpf-price-ranges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.wcpf-apply-filters {
+    background: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.wcpf-apply-filters:disabled {
+    background: #2196f3;
+    cursor: not-allowed;
+}
+
+.wcpf-loading {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.wcpf-loading-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100%; /* Dùng height: 100% thay vì 100vh */
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); /* Gradient mờ */
+	z-index: 99999999999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* Style cho ảnh loading (GIF) */
+.wcpf-loading-image {
+    display: block;
+    margin: 0 auto;
+    width: 45px; /* Kích thước cố định để không ảnh hưởng giao diện */
+    height: 45px;
+    object-fit: contain; /* Đảm bảo GIF không bị méo */
+}
+.wcpf-loading-overlay:empty {
+    display: none;
+}
+.wcpf-spinner {
+    width: 30px;
+    height: 30px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    will-change: transform;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.wcpf-term-count {
+	background: #e6e6e6;
+    border-radius: 50px;
+    padding: .2em .6em .2em .6em;
+    font-size: .75em;
+    line-height: 1.1em;
+    color: #5f5f5f;
+    /* display: inline-block; */
+    vertical-align: middle;
+}
+
+.wcpf-mobile-filter-grid .wcpf-filter-label.hidden, .wcpf-filter-label.hidden {
+    display: none;
+}
+.wcpf-show-more-toggle {
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+    color: #0073aa;
+    text-decoration: none;
+	font-size:13px;
+	width: 100%;
+	grid-column: 1 / -1;
+}
+
+/* */
+/* .wcpf-filter-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 0px;
+} */
+.widget_wcpf_filter_widget {
+	margin-bottom:0px;
+}
+.wcpf-filter-vertical .wcpf-mobile-filter-menu {
+	display: block;
+	background: unset;
+}
+.wcpf-filter-wrapper .wcpf-mobile-selected-filters {
+	margin-bottom: 10px;
+}
+.wcpf-filter-vertical .wcpf-filter-section {
+	margin-bottom: 25px;
+}
+.wcpf-filter-wrapper .wcpf-mobile-filter-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.wcpf-filter-wrapper .wcpf-mobile-filter-grid img {
+	width: 20px;
+	height: auto;
+}
+.wcpf-filter-wrapper .wcpf-mobile-filter-grid .wcpf-filter-label {
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: auto;
+	gap: 5px;
+	font-size: 13px;
+}
+.wcpf-filter-wrapper .wcpf-filter-section-title {
+	font-weight: bold;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.wcpf-filter-vertical .wcpf-action-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+.wcpf-filter-wrapper .wcpf-mobile-filter-grid.filter-brand .wcpf-filter-label img {
+	width: 20px;
+	height: auto;
+}
+.three-colums.filter-brand .wcpf-filter-label.label img, .four_colums.filter-brand .wcpf-filter-label.label img {
+	margin: 0px auto;
+	display: block;
+}
+.wcpf-filter-vertical .wcpf-action-buttons {
+	position: sticky;
+	bottom: 0px;
+	padding: 10px 0px 10px 10px;
+	background: #fff;
+}
+.wcpf-filter-vertical .wcpf-action-buttons button {
+	padding: 3px !important;
+	line-height: 1.5em;
+}
+.wcpf-filter-wrapper .wcpf-mobile-filter-grid .wcpf-filter-label.selected {
+	border-color: #2196f3;
+}
+/* CSS cho <details> và <summary> */
+.wcpf-filter-wrapper details {
+	margin-bottom: 25px;
+}
+.wcpf-filter-wrapper summary {
+	font-weight: bold;
+	cursor: pointer;
+	padding: 5px 0;
+	list-style: none;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.wcpf-filter-vertical .wcpf-filter-section-title {
+	position: relative;
+}
+.wcpf-filter-wrapper summary::-webkit-details-marker {
+	display: none;
+}
+.wcpf-filter-wrapper summary::after {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	content: "";
+	background-image: url(../images/arrow-down.svg);
+	display: inline-block;
+	transition: transform 0.2s ease;
+	background-size: 100% auto;
+	width: 10px;
+	height: 10px;
+}
+.wcpf-filter-wrapper details[open] summary::after {
+	background-image: url(../images/arrow-up.svg);
+}
+.wcpf-filter-wrapper .wcpf-mobile-filter-grid {
+	padding: 10px 0;
+}
+
+/* ------------- Thêm CSS động cho layout_style ----------------------*/
+
+.wcpf-filter-wrapper .list {
+	display: flex !important;
+	flex-direction: column;
+	gap: 5px;
+}
+.wcpf-filter-wrapper .two-colums {
+	display: grid ;
+	grid-template-columns: repeat(2, 1fr) ;
+}
+.wcpf-filter-wrapper .three-colums {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.wcpf-filter-wrapper .four_colums {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.wcpf-filter-wrapper .four_colums > *, .wcpf-filter-wrapper .three-colums > * {
+    overflow: hidden;       /* Ẩn nội dung tràn ra */
+    min-width: 0;            /* Bắt buộc để "overflow" hoạt động đúng trong Grid */
+}
+
+.wcpf-filter-wrapper .four_colums .wcpf-filter-label {
+	min-width: auto;
+}
+.wcpf-filter-wrapper .list .wcpf-filter-label {
+	position: relative;
+}
+.wcpf-filter-wrapper .list .wcpf-term-count {
+    position: absolute;
+    right: 2px;
+    background: none;
+    padding: 0;
+    font-size: .85em;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.wcpf-filter-wrapper .list .wcpf-filter-label.label {
+	text-align: left;
+}
+.wcpf-filter-wrapper .three-colums .wcpf-filter-label.checkbox-square, .wcpf-filter-wrapper .three-colums .wcpf-filter-label.checkbox-circle, .wcpf-filter-wrapper .two-colums .wcpf-filter-label.checkbox-circle, .wcpf-filter-wrapper .two-colums .wcpf-filter-label.checkbox-square, .wcpf-filter-wrapper .list .wcpf-filter-label.checkbox-square , .wcpf-filter-wrapper .list .wcpf-filter-label.checkbox-circle, .wcpf-filter-wrapper .four_colums .wcpf-filter-label.checkbox-square, .wcpf-filter-wrapper .four_colums .wcpf-filter-label.checkbox-circle {
+	border: none;
+	padding-left: 0px;
+	text-align: left;
+}
+
+.wcpf-filter-wrapper .two-colums .wcpf-filter-label.checkbox-circle:hover, .wcpf-filter-wrapper .three-colums .wcpf-filter-label.checkbox-circle:hover, .wcpf-filter-wrapper .two-colums .wcpf-filter-label.checkbox-square:hover, .wcpf-filter-wrapper .three-colums .wcpf-filter-label.checkbox-square:hover, .wcpf-filter-wrapper .list .wcpf-filter-label.checkbox-square:hover , .wcpf-filter-wrapper .list .wcpf-filter-label.checkbox-circle:hover, .wcpf-filter-label.checkbox-square, .wcpf-filter-label.checkbox-circle, .wcpf-filter-wrapper .four_colums .wcpf-filter-label.checkbox-circle:hover, .wcpf-filter-wrapper .four_colums .wcpf-filter-label.checkbox-square:hover {
+	background: none;
+}
+
+/* Thêm CSS động cho term_style */
+.wcpf-filter-wrapper .checkbox-circle.selected, .wcpf-filter-wrapper .checkbox-square.selected {
+	background: none;
+	font-weight: bold;
+	color: #333;
+}
+.wcpf-filter-wrapper .checkbox-circle.selected input[type="checkbox"], .wcpf-filter-wrapper .checkbox-square.selected input[type="checkbox"] {
+	accent-color: #333;
+}
+.wcpf-filter-wrapper .checkbox-circle input[type="checkbox"]:hover, .wcpf-filter-wrapper .checkbox-square input[type="checkbox"]:hover {
+	cursor: pointer;
+}
+
+.wcpf-filter-wrapper .wcpf-filter-label.checkbox-square input[type="checkbox"], .wcpf-filter-wrapper .wcpf-filter-label.checkbox-circle input[type="checkbox"] {
+	display: none;
+}
+.wcpf-filter-wrapper .wcpf-filter-label.checkbox-square .checkmark {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000;
+  background-color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  border-radius: 0;
+  top: 4px;
+}
+.wcpf-filter-wrapper .wcpf-filter-label.checkbox-square input[type="checkbox"]:checked + .checkmark::after {
+	content: "";
+	position: absolute;
+	left: 4px;
+	top: 0px;
+	width: 6px;
+	height: 12px;
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+.wcpf-filter-wrapper .wcpf-filter-label.checkbox-circle .checkmark {
+	width: 16px;
+	height: 16px;
+	border: 1px solid #000;
+	background-color: #fff;
+	display: inline-block;
+	margin-right: 5px;
+	position: relative;
+	border-radius: 50%;
+	top: 4px;
+}
+.wcpf-filter-wrapper .wcpf-filter-label.checkbox-circle input[type="checkbox"]:checked + .checkmark::after {
+	content: "";
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius: 50%;
+}
+.wcpf-filter-wrapper.horizontal .wcpf-filter-group .wcpf-filter-toggle, .wcpf-filter-wrapper.horizontal .wcpf-filter-group input, .wcpf-filter-wrapper.horizontal .wcpf-filter-group select, .wcpf-filter-wrapper.horizontal .wcpf-apply-filters {
+	height: 45px;
+}
+.wcpf-filter-wrapper.horizontal .wcpf-search-input, .wcpf-sort-select {
+	padding: 8px 0px 8px 12px;
+    margin-bottom: 0px;
+	min-width:150px;
+	width: 100%
+}
+
+.wcpf-sort-select {
+	padding: 8px 0px 8px 12px;
+    margin-top: 0px;
+}
+
+.wcpf-filter-group.category .wcpf-filter-menu a {
+	padding: 5px 12px 5px 12px;
+}
+
+.wcpf-mobile-filter-grid.list.category a, .wcpf-filter-group.category .wcpf-filter-grid.list a{
+	color: #333;
+	padding-top: 3px;
+	padding-bottom:3px;
+	width: 100%;
+}
+
+.four_colums .wcpf-filter-label.label .term-title, .four_colums .wcpf-filter-label.label .wcpf-term-count, .three-colums .wcpf-filter-label.label .term-title, .three-colums .wcpf-filter-label.label .wcpf-term-count {
+	display: block;
+	width: fit-content;
+	margin: 2px auto;
+}
+
+.term-title, .wcpf-term-count {
+	word-break: normal;
+}
+
+/* CSS cho Toggle danh mục */
+
+li.wcpf-category-parent {
+    margin-bottom: 0px;
+}
+
+
+.wcpf-category-parent-title.text_link {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    cursor: pointer;
+	width: 100%;
+}
+
+.wcpf-toggle-icon {
+    cursor: pointer;
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-top: 2px;
+}
+
+.wcpf-toggle-icon.wcpf-toggle-open {
+    background-image: url(../images/minus.svg);
+	background-size: 100% auto;
+}
+.wcpf-toggle-icon.wcpf-toggle-closed {
+    background-image: url(../images/plus.svg);
+	background-size: 100% auto;
+}
+
+.wcpf-category-children {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.wcpf-filter-label.selected,
+.wcpf-text-link.selected {
+    color: #000;
+}
+
+.wcpf-filter-label input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.wcpf-category-parent-title.category_filter {
+	display:block;
+	width: 100%;
+}
+
+ul.wcpf-mobile-filter-grid.list.category li {
+	margin-bottom:2px !important;
+}
+
+.wcpf-mobile-filter-grid.list.category.text_link { 
+	gap: 0px;
+}
+
+li.wcpf-category-parent .wcpf-term-count {
+    position: unset !important;
+    right: 2px;
+    background: none;
+    padding: 0px 0px 2px 5px !important;
+    font-size: .85em;
+    -moz-transform: unset !important;
+    -webkit-transform: unset !important;
+    transform: unset !important;
+	display: inline-block;
+}
+
+.wcpf-mobile-filter-grid.list.category > li {
+	display:inline-block;
+	width: 100%;
+	border-bottom: 1px solid #ececec;
+	padding: 0px 0px 3px 0px;
+}
+
+.wcpf-mobile-filter-grid.list.category > li:last-child {
+	border-bottom: none;
+}
+
+@media (max-width: 768px) {
+	.wcpf-filter-vertical .wcpf-mobile-filter-menu {
+		position: unset;
+	}
+	.wcpf-filter-vertical .wcpf-filter-section {
+		padding: 0px;
+	}
+	.wcpf-filter-vertical .wcpf-action-buttons {
+		position: unset;
+		border: none;
+	}
+	.wcpf-filter-vertical .wcpf-mobile-selected-filters {
+		padding: 10px 0px 10px 0px;
+	}
+	.wcpf-mobile-filter-grid.list .checkbox-square, .wcpf-mobile-filter-grid.list .checkbox-circle {
+		background: none !important;
+	}
+}
+/* Mobile Styles (<= 768px) */
+@media (max-width: 768px) {
+	.wcpf-filter-wrapper.horizontal button{
+		line-height:unset;
+	}
+	.wcpf-filter-group.search, .wcpf-filter-group.sortby {
+		padding:10px;
+	}
+	.wcpf-mobile-filter-menu .wcpf-filter-group.search form {
+		margin-bottom: 0px;
+	}
+    .wcpf-filter-options {
+        display: none;
+    }
+
+    .wcpf-selected-filters {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .wcpf-mobile-filter-header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .wcpf-filter-button {
+        display: inline-flex;
+        align-items: center;
+        background: #ffffff;
+        color: #2196f3;
+        border: 1px solid #2196f3;
+        border-radius: 4px;
+        padding: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+        font-weight: normal;
+        flex-shrink: 0;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        position: relative;
+    }
+
+    .wcpf-filter-button.wcpf-filter-active::after {
+        content: '!';
+        position: absolute;
+        top: -7px;
+        right: -7px;
+        background: #2196f3;
+        color: #fff;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .un-filter-v2 {
+        background: url(../images/filter.png) no-repeat center center;
+        display: inline-block;
+        vertical-align: middle;
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+        margin-right: 5px;
+    }
+
+    .wcpf-brand-tags-container {
+        display: inline-flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        gap: 8px;
+        padding: 0;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        flex-grow: 1;
+    }
+
+    .wcpf-brand-tags-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .wcpf-brand-tag {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #f5f5f5;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        padding: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+
+    .wcpf-brand-tag.wcpf-brand-disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+
+    .wcpf-brand-tag img {
+        width: 24px;
+        height: auto;
+        display: block;
+    }
+
+    .wcpf-brand-tag:hover {
+        background: #e3f2fd;
+        border-color: #2196f3;
+    }
+
+    .wcpf-mobile-filter-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        z-index: 999999999999;
+        display: none;
+        flex-direction: column;
+        overflow-y: auto;
+		box-sizing: border-box;
+		overscroll-behavior: contain;
+		-webkit-overflow-scrolling: touch;
+		touch-action: manipulation; /* Ngăn double-tap-to-zoom */
+    }
+
+    .wcpf-filter-title {
+		background: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px;
+        border-bottom: 1px solid #e0e0e0;
+        text-align: center;
+        color: #000;
+        position: sticky;
+		top: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		z-index:999999;
+    }
+	.wcpf-filter-title-text {
+		flex: 1;
+		text-align: center; /* Căn giữa chữ "BỘ LỌC" */
+		font-weight: bold;
+	}
+
+    .wcpf-close-menu {
+        position: absolute;
+        right: 10px;
+        top: 7px;
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-radius: 7px;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: normal;
+        margin-right: 10px;
+        color: #000;
+    }
+
+    .wcpf-mobile-select-realtime {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .wcpf-mobile-select-realtime .wcpf-filter-tag {
+        background: #f2f4f7;
+        color: #333;
+        border: unset;
+        font-size: 13px;
+    }
+
+    .wcpf-filter-section {
+        padding: 10px;
+    }
+
+    .wcpf-filter-section-title {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .wcpf-mobile-filter-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .wcpf-mobile-filter-grid .wcpf-filter-label {
+        width: auto;
+        border: 1px solid #e0e0e0;
+        background: #fff;
+    }
+
+    .wcpf-mobile-filter-grid .wcpf-filter-label.selected {
+        border-color: #2196f3;
+        background: #e3f2fd;
+        color: #2196f3;
+    }
+
+    .wcpf-mobile-filter-grid.filter-brand .wcpf-filter-label {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 10px;
+    }
+
+    .wcpf-mobile-filter-grid.filter-brand .wcpf-filter-label img {
+        width: 20px;
+        height: auto;
+    }
+
+    .wcpf-action-buttons {
+        display: flex;
+        gap: 10px;
+        padding: 10px 0px 5px 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid #ddd;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .wcpf-action-buttons button {
+        flex: 1;
+        border: none;
+        border-radius: 4px;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-weight: normal;
+    }
+
+    .wcpf-apply-filters span.total-products {
+        font-weight: bold;
+    }
+
+    .wcpf-action-buttons .wcpf-reset-filters {
+        background: #fff;
+        color: #dd1c1a;
+        border: none;
+        padding: 5px;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+        display: block;
+    }
+
+    .wcpf-apply-filters {
+        background: #2196f3;
+        color: #fff;
+    }
+
+    body.wcpf-mobile-menu-open {
+        overflow: hidden;
+    }
+	.wcpf-mobile-filter-grid.list.category {
+		max-height: 50vh;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+		flex-direction: unset;
+	}
+	.wcpf-mobile-filter-grid.list.category a, .wcpf-mobile-filter-grid.list.category .wcpf-filter-label.checkbox-circle, .wcpf-mobile-filter-grid.list.category .wcpf-filter-label.checkbox-square {
+		width: 100%;
+		display:inline-block;
+	}
+	.wcpf-mobile-filter-grid.three-colums.filter-brand .wcpf-filter-label, .wcpf-mobile-filter-grid.four_colums.filter-brand .wcpf-filter-label {
+		display: inline-block;
+	}
+}
+
+/* Desktop Styles (> 768px) */
+@media (min-width: 769px) {
+    .wcpf-filter-button,
+    .wcpf-mobile-filter-menu,
+    .wcpf-mobile-filter-header {
+        display: none;
+    }
+
+    .wcpf-filter-menu .wcpf-close-menu,
+    .wcpf-filter-menu .wcpf-mobile-footer {
+        display: none !important;
+    }
+}
