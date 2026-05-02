@@ -115,10 +115,13 @@ Yes. The plugin generates clean, structured URLs optimized for search engines.
 
 ## 🖼️ Screenshots
 
-1. Admin interface for creating and managing filters  
-2. Drag-and-drop attribute and term organization  
-3. Frontend filter with images and product counts  
-4. Mobile filter UI with selected filter tags  
+<p align="center">
+  <img src="https://muabanlaptopcuhcm.com/wp-content/uploads/2026/05/Product-Filter-by-Titan-ADMIN-1.png" width="200"/>
+  <img src="https://muabanlaptopcuhcm.com/wp-content/uploads/2026/05/Product-Filter-by-Titan-ADMIN-2.png" width="200"/>
+  <img src="https://muabanlaptopcuhcm.com/wp-content/uploads/2026/05/Product-Filter-by-Titan-Font-1.png" width="200"/>
+  <img src="https://muabanlaptopcuhcm.com/wp-content/uploads/2026/05/Product-Filter-by-Titan-Font-2.png" width="200"/>
+  <img src="https://muabanlaptopcuhcm.com/wp-content/uploads/2026/05/Product-Filter-by-Titan-Font-3.png" width="200"/>
+</p>
 
 ---
 
