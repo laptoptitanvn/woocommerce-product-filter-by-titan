@@ -166,6 +166,20 @@ Your support helps make this plugin better for everyone 🚀
 
 ---
 
+## 💛 Support This Project
+
+If you find this WooCommerce plugin useful, please consider supporting its development:
+
+👉 https://github.com/sponsors/laptoptitanvn
+
+💡 You can sponsor with any amount — every contribution helps!
+
+Your support helps me maintain, improve, and add new features to this plugin.
+
+Thank you so much! 🙏
+
+---
+
 ## 📄 License
 
 This plugin is licensed under the **GPLv2 or later**.
