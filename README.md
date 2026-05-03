@@ -142,6 +142,12 @@ Initial release. No upgrades required.
 
 ---
 
+## 👨‍💻 Author
+Created by Laptop Titan.
+GitHub: https://github.com/tuanlaptopgaming
+
+---
+
 ## 🤝 Contributing & Feedback
 
 I welcome contributions, suggestions, and feedback to help improve this plugin.
