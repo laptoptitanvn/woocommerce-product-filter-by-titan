@@ -17,9 +17,6 @@ A powerful and flexible WooCommerce product filtering plugin with SEO-friendly U
   - Canonical URLs for filters
   - Custom SEO Titles for better ranking
 
-- **Instant Filtering (AJAX)**  
-  Apply filters instantly on click or use an "Apply" button based on your preference.
-
 - **Drag-and-Drop Builder**  
   Easily organize attributes and terms directly from the admin panel.
 
