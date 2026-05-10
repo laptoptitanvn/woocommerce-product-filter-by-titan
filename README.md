@@ -6,6 +6,16 @@ A powerful and flexible WooCommerce product filtering plugin with SEO-friendly U
 
 ## 🚀 Features
 
+- **Filters**  
+  - Filter by Taxonomy
+  - Filter by Category
+  - Filter by Brand
+  - Filter by Price
+  - Filter by Order By
+  - Filter by Stock
+  - Filter by Search
+  - Filter by Rating
+
 - **SEO-Friendly URLs**  
   Generate clean and readable filter URLs like:  
   `/filters/product_brand-acer`  
